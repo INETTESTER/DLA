@@ -3,7 +3,7 @@ import { SharedArray } from 'k6/data';
 
 
 const CustomerID = new SharedArray('CustomerID', function () {
-    const jsonData = JSON.parse(open('../file/CustomerID.json'));
+    const jsonData = JSON.parse(open('../file/CustomerID4.json'));
     return jsonData.CustomerID.map(CustomerID => ({ CustomerID: CustomerID }));
   });
   
@@ -100,6 +100,7 @@ export function CustomerRegisterWithSMS() {
     });
   
     const params = {
+      timeout:"300s",
       headers: {
         'Content-Type': 'application/json',
       },

@@ -6,14 +6,14 @@ import { scenario } from 'k6/execution';
 import { searchbyid } from '../api/02_searchbyid.js';
 import { CustomerRegisterWithSMS } from '../api/01_CustomerRegisterWithSMS.js';
 
-CustomerRegisterWithSMS
+
 
 //============================================================================
 
 export default function () {    //เรียกใช้ API ใน export default function
   
-  //response = CustomerRegisterWithSMS()
-  response = searchbyid()
+  response = CustomerRegisterWithSMS()
+  //response = searchbyid()
   
   error_check(response);
   sleep(1)
