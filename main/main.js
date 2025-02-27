@@ -13,8 +13,8 @@ import { news } from '../api/news.js';
 export default function () {    //เรียกใช้ API ใน export default function
   
   //response = CustomerRegisterWithSMS()
-  //response = searchbyid()
-  response = news()
+  response = searchbyid()
+  //response = news()
   error_check(response);
   sleep(1)
 }

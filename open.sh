@@ -4,7 +4,7 @@
 ##########################################################################
 ##########################################################################
 ##########################################################################
-                     API="news"  ### CustomerRegisterWithSMS  // searchbyid
+                     API="searchbyid"  ### CustomerRegisterWithSMS  // searchbyid
                      google_sheet="https://docs.google.com/spreadsheets/d/1zABmUeRqXoUl5Qc8vx4ebK_U1ByfnUKA4YSvAeYo3Ss/edit?usp=sharing" 
                      id="Q1"                 #เปลี่ยน id ทุกครั้งที่ยิง
                      user="15000";            #จำนวนผู้ใช้งาน
