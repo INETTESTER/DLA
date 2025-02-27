@@ -4,9 +4,9 @@
 ##########################################################################
 ##########################################################################
 ##########################################################################
-                     API="CustomerRegisterWithSMS"  ### CustomerRegisterWithSMS  // searchbyid
+                     API="news"  ### CustomerRegisterWithSMS  // searchbyid
                      google_sheet="https://docs.google.com/spreadsheets/d/1zABmUeRqXoUl5Qc8vx4ebK_U1ByfnUKA4YSvAeYo3Ss/edit?usp=sharing" 
-                     id="5"                 #เปลี่ยน id ทุกครั้งที่ยิง
+                     id="Q1"                 #เปลี่ยน id ทุกครั้งที่ยิง
                      user="15000";            #จำนวนผู้ใช้งาน
                      duration="1";         #วินาที
                      scenario="1"           #scenario="1" ยิงเเบบกำหนด request (duration ได้แค่ 1 วินาที)
