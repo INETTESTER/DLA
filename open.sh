@@ -4,10 +4,10 @@
 ##########################################################################
 ##########################################################################
 ##########################################################################
-                     API="searchbyid"  ### CustomerRegisterWithSMS  // searchbyid
+                     API="Register"  ### CustomerRegisterWithSMS  // searchbyid
                      google_sheet="https://docs.google.com/spreadsheets/d/1zABmUeRqXoUl5Qc8vx4ebK_U1ByfnUKA4YSvAeYo3Ss/edit?usp=sharing" 
-                     id="Q1"                 #เปลี่ยน id ทุกครั้งที่ยิง
-                     user="15000";            #จำนวนผู้ใช้งาน
+                     id="1"                 #เปลี่ยน id ทุกครั้งที่ยิง
+                     user="1";            #จำนวนผู้ใช้งาน
                      duration="1";         #วินาที
                      scenario="1"           #scenario="1" ยิงเเบบกำหนด request (duration ได้แค่ 1 วินาที)
                      cid="1"                #scenario="2" ยิงเเบบกำหนด VUs  (กำหนดว่า user x คน ใช้ระบบ x วินาที)
