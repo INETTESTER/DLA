@@ -1,8 +1,8 @@
 import http from "k6/http";
 
 
-export function Register() {
-  const cid = `${__VU}${__ITER}`;
+export function Register(cid) {
+  const CustomerID = `${__VU}${__ITER}${cid}`;
   const url = "https://api-dla-local2568.thaijobjob.com/api/customer/register";
 
   const payload = JSON.stringify({
@@ -24,7 +24,7 @@ export function Register() {
       race: "ไทย",
       religion: "พุทธ",
       birth_date: "08-01-2539",
-      CustomerID: ""+cid,
+      CustomerID: ""+CustomerID,
       address: "24",
       village: "-",
       moo: "2",
@@ -109,8 +109,8 @@ export function Register() {
 
   const res = http.post(url, payload, params);
 
-  console.log(`Status: ${res.status}`);
-  console.log(`Response: ${res.body}`);
+  //console.log(`Status: ${res.status}`);
+  //console.log(`Response: ${res.body}`);
 
   return res
 }

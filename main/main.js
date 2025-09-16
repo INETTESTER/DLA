@@ -16,7 +16,7 @@ export default function () {    //เรียกใช้ API ใน export def
   //response = CustomerRegisterWithSMS()
   //response = searchbyid()
   //response = news()
-  response = Register()
+  response = Register(cid)
   error_check(response);
   sleep(1)
 }
